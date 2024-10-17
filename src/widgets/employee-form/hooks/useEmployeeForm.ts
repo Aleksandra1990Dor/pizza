@@ -57,7 +57,7 @@ export const useEmployeeForm = () => {
 		if (employee) handleEditEmployee(data, name)
 		else handleAddEmployee(data, name)
 
-		navigate('pizza/')
+		navigate('/pizza/')
 	}
 
 	return { onSubmit, handleSubmit, register, control, errors }

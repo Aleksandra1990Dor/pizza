@@ -17,7 +17,7 @@ const Header = (props: HeaderProps) => {
 			<div className={styles.crumbs}>
 				{crumbs.map(crumb => (
 					<Fragment key={crumb}>
-						<NavLink to={'/'}>{crumb}</NavLink>
+						<NavLink to={'/pizza/'}>{crumb}</NavLink>
 						<MdNavigateNext className={styles.nextIcon} />
 					</Fragment>
 				))}

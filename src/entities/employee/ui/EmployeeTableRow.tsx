@@ -10,7 +10,7 @@ const EmployeeTableRow = (props: EmployeeRowProps) => {
 	const { employee } = props
 	const navigate = useNavigate()
 
-	const onClick = () => navigate(`pizza/employee/${employee.id}`)
+	const onClick = () => navigate(`/pizza/employee/${employee.id}`)
 
 	return (
 		<tr onClick={onClick}>

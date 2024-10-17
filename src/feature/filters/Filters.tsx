@@ -31,7 +31,10 @@ const Filters = () => {
 					checked={archiveFilter}
 				/>
 			</div>
-			<Button variant='outlined' onClick={() => navigate('pizza/new-employee')}>
+			<Button
+				variant='outlined'
+				onClick={() => navigate('/pizza/new-employee')}
+			>
 				Добавить сотрудника
 			</Button>
 		</div>
