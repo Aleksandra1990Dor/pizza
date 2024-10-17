@@ -1,0 +1,95 @@
+:root {
+	--bg-color: #fcfcfc;
+	--text-black: #212020;
+	--text-gray: #544f4f;
+	--primary: #f73b3bff;
+	--secondary: #fff3f3ff;
+	--font: 16px;
+	--font-large: 24px;
+	--font-small: 12px;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	outline: none;
+	border: none;
+}
+
+body {
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	background-color: var(--bg-color);
+	font-size: var(--font);
+	color: var(--text-black);
+
+	@media (max-width: 600px) {
+		font-size: var(--font-small);
+	}
+}
+
+.react-datepicker-wrapper {
+	display: block;
+	width: 100%;
+
+	.react-datepicker__input-container {
+		> input {
+			border: 1px solid #e3e3e3;
+			padding: 10px;
+			width: 100%;
+			border-radius: 4px;
+			line-height: 1;
+			cursor: pointer;
+
+			&:hover {
+				border-color: #bdbdbd;
+			}
+		}
+	}
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+
+	&:hover {
+		-webkit-appearance: none;
+		margin: 0;
+	}
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+
+	&:hover {
+		-moz-appearance: textfield;
+	}
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+	-webkit-box-shadow: none;
+	transition: background-color 5000s ease-in-out 0s;
+}
+
+input {
+	font-family: inherit;
+	color: var(--text-black);
+	font-size: var(--font);
+
+	@media (max-width: 600px) {
+		font-size: var(--font-small);
+	}
+}

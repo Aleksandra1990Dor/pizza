@@ -1,0 +1,40 @@
+form {
+	padding: 20px 40px;
+	background-color: #fff;
+	border-radius: 20px;
+
+	@media (max-width: 600px) {
+		padding: 20px;
+	}
+
+	h2 {
+		margin-bottom: 60px;
+		font-size: 18px;
+		color: var(--primary);
+
+		@media (max-width: 600px) {
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
+	}
+
+	.fieldsWrapper {
+		display: flex;
+		margin-bottom: 40px;
+
+		@media (max-width: 950px) {
+			flex-direction: column;
+		}
+
+		.fields {
+			width: 50%;
+
+			@media (max-width: 950px) {
+				width: 100%;
+			}
+		}
+	}
+	.btnWrapper {
+		padding: 0 20px;
+	}
+}
