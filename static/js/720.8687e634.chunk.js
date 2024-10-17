@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpizza_test=self.webpackChunkpizza_test||[]).push([[720],{720:(t,a,e)=>{e.d(a,{mny:()=>i});var h=e(441);function i(t){return(0,h.k5)({tag:"svg",attr:{viewBox:"0 0 24 24"},child:[{tag:"path",attr:{fill:"none",d:"M0 0h24v24H0z"},child:[]},{tag:"path",attr:{d:"M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"},child:[]}]})(t)}}}]);
+//# sourceMappingURL=720.8687e634.chunk.js.map
