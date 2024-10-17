@@ -30,26 +30,6 @@ body {
 	}
 }
 
-.react-datepicker-wrapper {
-	display: block;
-	width: 100%;
-
-	.react-datepicker__input-container {
-		> input {
-			border: 1px solid #e3e3e3;
-			padding: 10px;
-			width: 100%;
-			border-radius: 4px;
-			line-height: 1;
-			cursor: pointer;
-
-			&:hover {
-				border-color: #bdbdbd;
-			}
-		}
-	}
-}
-
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
