@@ -6,7 +6,7 @@ import { Loader } from 'shared/components'
 
 export const router = createBrowserRouter([
 	{
-		path: '/',
+		path: 'pizza/',
 		element: (
 			<Suspense fallback={<Loader />}>
 				<MainPage />
@@ -14,7 +14,7 @@ export const router = createBrowserRouter([
 		)
 	},
 	{
-		path: '/employee/:employeeId',
+		path: 'pizza/employee/:employeeId',
 		element: (
 			<Suspense fallback={<Loader />}>
 				<EmployeePage />
@@ -22,7 +22,7 @@ export const router = createBrowserRouter([
 		)
 	},
 	{
-		path: '/new-employee',
+		path: 'pizza/new-employee',
 		element: (
 			<Suspense fallback={<Loader />}>
 				<NewEmployeePage />
