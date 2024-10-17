@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/pizza/static/css/main.5d778434.css",
-    "main.js": "/pizza/static/js/main.d612e5e7.js",
+    "main.js": "/pizza/static/js/main.1c00a519.js",
     "static/css/810.1373ac6c.chunk.css": "/pizza/static/css/810.1373ac6c.chunk.css",
-    "static/js/810.de7b98c8.chunk.js": "/pizza/static/js/810.de7b98c8.chunk.js",
+    "static/js/810.93ca6b44.chunk.js": "/pizza/static/js/810.93ca6b44.chunk.js",
     "static/css/473.d4d832f6.chunk.css": "/pizza/static/css/473.d4d832f6.chunk.css",
-    "static/js/473.605659de.chunk.js": "/pizza/static/js/473.605659de.chunk.js",
+    "static/js/473.5919061e.chunk.js": "/pizza/static/js/473.5919061e.chunk.js",
     "static/css/222.d32f7bd6.chunk.css": "/pizza/static/css/222.d32f7bd6.chunk.css",
-    "static/js/222.3a8222f6.chunk.js": "/pizza/static/js/222.3a8222f6.chunk.js",
+    "static/js/222.6ff65e8c.chunk.js": "/pizza/static/js/222.6ff65e8c.chunk.js",
     "static/js/720.8687e634.chunk.js": "/pizza/static/js/720.8687e634.chunk.js",
     "index.html": "/pizza/index.html",
     "main.5d778434.css.map": "/pizza/static/css/main.5d778434.css.map",
-    "main.d612e5e7.js.map": "/pizza/static/js/main.d612e5e7.js.map",
+    "main.1c00a519.js.map": "/pizza/static/js/main.1c00a519.js.map",
     "810.1373ac6c.chunk.css.map": "/pizza/static/css/810.1373ac6c.chunk.css.map",
-    "810.de7b98c8.chunk.js.map": "/pizza/static/js/810.de7b98c8.chunk.js.map",
+    "810.93ca6b44.chunk.js.map": "/pizza/static/js/810.93ca6b44.chunk.js.map",
     "473.d4d832f6.chunk.css.map": "/pizza/static/css/473.d4d832f6.chunk.css.map",
-    "473.605659de.chunk.js.map": "/pizza/static/js/473.605659de.chunk.js.map",
+    "473.5919061e.chunk.js.map": "/pizza/static/js/473.5919061e.chunk.js.map",
     "222.d32f7bd6.chunk.css.map": "/pizza/static/css/222.d32f7bd6.chunk.css.map",
-    "222.3a8222f6.chunk.js.map": "/pizza/static/js/222.3a8222f6.chunk.js.map",
+    "222.6ff65e8c.chunk.js.map": "/pizza/static/js/222.6ff65e8c.chunk.js.map",
     "720.8687e634.chunk.js.map": "/pizza/static/js/720.8687e634.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5d778434.css",
-    "static/js/main.d612e5e7.js"
+    "static/js/main.1c00a519.js"
   ]
 }
