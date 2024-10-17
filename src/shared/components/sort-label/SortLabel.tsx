@@ -18,13 +18,22 @@ const SortLabel = (props: SortLabelProps) => {
 		<div className={styles.sortLabel}>
 			{!direction ? (
 				<>
-					<FaArrowUpLong onClick={() => onClick('up')} />
-					<FaArrowDownLong onClick={() => onClick('down')} />
+					<FaArrowUpLong
+						onClick={() => onClick('up')}
+						data-testid='FaArrowUpLong'
+					/>
+					<FaArrowDownLong
+						onClick={() => onClick('down')}
+						data-testid='FaArrowDownLong'
+					/>
 				</>
 			) : direction === 'up' ? (
-				<FaArrowUpLong onClick={toggleOnClick} />
+				<FaArrowUpLong onClick={toggleOnClick} data-testid='FaArrowUpLong' />
 			) : (
-				<FaArrowDownLong onClick={toggleOnClick} />
+				<FaArrowDownLong
+					onClick={toggleOnClick}
+					data-testid='FaArrowDownLong'
+				/>
 			)}
 		</div>
 	)

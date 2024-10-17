@@ -36,7 +36,7 @@ export const resolver: Resolver<EmployeeFormType> = async values => {
 	if (!values.role || values.role === '-') {
 		errors.role = {
 			type: 'required',
-			message: 'Выберите роль'
+			message: 'Выберите должность'
 		}
 	}
 	return { values, errors }
